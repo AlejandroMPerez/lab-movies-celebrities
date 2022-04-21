@@ -1,0 +1,16 @@
+<a href="/">Home</a>
+<a href="/celebrities/create">Create Celebrity</a>
+
+<h2>List of Celebrities</h2> 
+<br>
+
+{{#each allCelebrities}}
+
+<div>
+    <p>{{this.name}}</p>
+    <p>{{this.occupation}}</p>
+    <p>{{this.catchPhrase}}</p>
+    <hr/>
+</div>    
+
+{{/each}}
